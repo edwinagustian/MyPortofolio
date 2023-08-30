@@ -1,0 +1,19 @@
+body {
+    margin: 90vh;
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #87CEFA;
+    height: auto;
+
+}
+
+#project {
+    background-color: #87CEFA;
+}
+
+h2 {
+    color: dark;
+    font-family: Roboto, sans-serif;
+}
