@@ -21,6 +21,11 @@ body {
     /* Animasi dengan durasi 0.3 detik dengan efek perubahan halus */
 }
 
+.card a img {
+    width: 100%;
+
+}
+
 .nav-link {
     font-family: 'Poppins', sans-serif;
     color: #fff;
