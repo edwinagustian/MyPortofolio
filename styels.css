@@ -1,5 +1,5 @@
 body {
-    margin: 90vh;
+    margin: 100vh;
 }
 
 .jumbotron {
@@ -9,11 +9,54 @@ body {
 
 }
 
+
 #project {
     background-color: #87CEFA;
 }
 
-h2 {
+.card img:hover {
+    transform: scale(1.1);
+    /* Perbesar gambar saat dihover */
+    transition: transform 0.3s ease;
+    /* Animasi dengan durasi 0.3 detik dengan efek perubahan halus */
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+
+
+.col h1 {
     color: dark;
-    font-family: Roboto, sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+.row p {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    padding: 10px;
+    /* Lebih besar untuk ruang dalam kotak */
+    background-color: skyblue;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* Efek box shadow */
+}
+
+
+h3 {
+    color: black;
+    font-size: 500;
+    font-family: 'Poppins', sans-serif
+}
+
+/* media query  */
+@media(max-width: 576px) {
+    .card {
+        margin-top: 4px;
+    }
 }
